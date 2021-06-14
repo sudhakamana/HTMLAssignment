@@ -1,0 +1,739 @@
+body {
+  margin: 0px;
+}
+
+#TradeNow h1, p {
+  margin: 0px;
+  display: inline-block;
+}
+
+#TradeNow {
+  background-color: #ffd8cc;
+}
+
+#TradeNow p {
+  margin-left: 20%;
+}
+
+#easyContact {
+  margin-top: 10px;
+}
+
+#easyContact div {
+  float: right;
+}
+
+#easyContact p {
+  padding: 0px 10px 0px 10px;
+}
+
+#logoDiv img {
+  height: 60px;
+  margin-left: 40%;
+}
+
+.favNailPolish {
+  float: right;
+  margin: 0px 0px 10px 20px;
+}
+
+#formsSection {
+  width: 95%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+
+#borderAdjustment {
+  border: none;
+}
+
+#ShopByProduct {
+  display: inline-block;
+}
+
+.displayFeature select {
+  background-color: white;
+}
+
+.displayFeature {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+
+#NavPage {
+  background-color: #e4efe7;
+  padding: 9px;
+  border-bottom: 5px solid #125d98;
+}
+
+.NavpageAdjustment {
+  text-decoration: none;
+  color: black;
+  margin: 0px 10px 0px 10px;
+}
+
+#product-info {
+  margin-top: 50px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.profile {
+  height: 30px;
+}
+
+.main-info-mb {
+  display: none;
+}
+
+.item-image-parent {
+  width: 60%;
+}
+
+.item-info-parent {
+  width: 40%;
+}
+
+.item-list-vertical {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+
+.item-image-main {
+  margin-left: 20%;
+  width: 60%;
+  height: 50%;
+}
+
+/* sectioning completed */
+.thumb-box {
+  width: 75%;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid gray;
+  padding-top: 20px;
+}
+
+.thumb-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.item-image-main img {
+  width: 100%;
+  height: auto;
+}
+
+.thumb-box:hover {
+  cursor: pointer;
+}
+
+/* Item Info */
+.main-info h4 {
+  font-size: 21px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.star-rating {
+  width: 80%;
+  color: gray;
+  font-size: 20px;
+  display: block;
+}
+
+.star-rating-mb {
+  display: none;
+}
+
+.star-rating span {
+  color: #000;
+}
+
+.main-info p {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#price {
+  color: #a80e0e;
+  font-size: 21px;
+  display: block;
+}
+
+#price2 {
+  color: #4dee47;
+  font-size: 21px;
+  display: block;
+}
+
+.holly {
+  font-size: 10px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.change-color .thumb-box {
+  margin: 10px 0px 10px 0;
+  width: 40px;
+  display: inline-block;
+}
+
+.add {
+  margin-top: 10px;
+}
+
+.add button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+.add button:hover {
+  opacity: 0.7;
+}
+
+.qty {
+  width: 30%;
+  height: 30%;
+  background-color: #dadada;
+  margin: 20px 20px 20px 0;
+}
+
+.qty button {
+  width: 40%;
+  background: transparent;
+  border: transparent;
+  height: 30%;
+  font-size: 20px;
+}
+
+.qty .num {
+  margin: 3%;
+  font-size: 20px;
+}
+
+.darkslateblue {
+  background: darkslateblue;
+}
+
+.mediumorchid {
+  background: mediumorchid;
+}
+
+.seagreen {
+  background: seagreen;
+}
+
+.steelblue {
+  background: steelblue;
+}
+
+.colors {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.circle {
+  display: inline;
+  border-radius: 50%;
+  border-color: #000;
+  width: 7%;
+}
+
+/* discreption */
+.description {
+  margin-top: 30px;
+}
+
+.description button {
+  margin-top: 20px;
+}
+
+.collapsible {
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.GoesWellWith {
+  background-color: #e4efe7;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.suggestionSection {
+  width: 87%;
+  margin-left: 5%;
+}
+
+.thisItem, .frequentlyBrought, .priceSummary {
+  width: 20%;
+  background-color: white;
+  display: inline-block;
+  padding: 10px 10px 40px 10px;
+}
+
+.thisItem button {
+  padding: 10px 50px;
+  background-color: black;
+  color: white;
+  margin-top: 15px;
+}
+
+.priceSummary button {
+  padding: 10px 50px;
+  background-color: black;
+  color: white;
+  margin-top: 15px;
+}
+
+.frequentlyBrought button {
+  padding: 10px 50px;
+  background-color: black;
+  color: white;
+  margin-top: 15px;
+}
+
+/*.thisItem{
+  margin-left: -20%;
+}*/
+.thisItem img {
+  height: 150px;
+}
+
+.frequentlyBrought img {
+  height: 150px;
+}
+
+.priceSummary img {
+  height: 150px;
+}
+
+.thisItem input {
+  float: right;
+}
+
+.priceSummary input {
+  float: right;
+}
+
+.frequentlyBrought input {
+  float: right;
+}
+
+.AwardNailpolish {
+  margin: 9px;
+}
+
+.PriceSummary2 {
+  float: right;
+}
+
+.awardbest {
+  display: inline-block;
+  margin: 10px;
+}
+
+.icondelete {
+  display: inline-block;
+}
+
+.Section1 {
+  padding: 13px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.Section1 img {
+  height: 60px;
+  float: left;
+}
+
+.awardbest h6 {
+  margin: 2px;
+}
+
+.Section1 p {
+  display: right;
+}
+
+.totalkit {
+  margin-right: 80px;
+}
+
+.discount {
+  background-color: white;
+  padding: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.discount button {
+  padding: 10px 50px;
+  background-color: black;
+  color: white;
+}
+
+.reviewSection {
+  width: 87%;
+  margin-left: 8%;
+  margin-right: 5%;
+}
+
+.rating {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #125d98;
+}
+
+.rating p {
+  padding: 9px;
+}
+
+.rating img {
+  height: 60px;
+  float: right;
+  margin-top: -20px;
+}
+
+.search input {
+  padding: 5px 100px;
+}
+
+.search button {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+.ReviewSearchSection {
+  border-bottom: 1px solid #125d98;
+  margin-bottom: 10px;
+}
+
+.writeReview {
+  margin-bottom: 10px;
+}
+
+.writeReview button {
+  margin-left: 78%;
+  background-color: blueviolet;
+  color: #e4efe7;
+  padding: 10px 15px;
+}
+
+.writeReview p {
+  font-size: 30px;
+}
+
+.row, .row2, .row3 {
+  display: inline-block;
+}
+
+.row {
+  width: 20%;
+}
+
+.row2 {
+  width: 50%;
+}
+
+.row3 {
+  width: 25%;
+}
+
+.row ol {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.row2 ol {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.row3 p {
+  font-size: 16px;
+}
+
+.qualityReview, .qualityReview1, .qualityReview2 {
+  background-color: blueviolet;
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.qualityReview1 {
+  width: 80%;
+}
+
+.Helpful {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 11%;
+}
+
+.Helpful button {
+  border: none;
+  padding: 5px 20px;
+}
+
+.footerSection {
+  background-color: #e4efe7;
+}
+
+.footerdiv {
+  width: 95%;
+}
+
+.Flogo {
+  height: 20px;
+}
+
+.footerAdjust {
+  padding: 70px 100px 20px;
+}
+
+.footerAdjust2 {
+  padding: 70px 100px 20px;
+}
+
+.f1 {
+  padding: 0px 100px 20px;
+}
+
+.f2 {
+  padding-left: 11%;
+}
+
+.f3 {
+  padding-left: 21%;
+}
+
+.f4 {
+  padding-left: 17%;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.navpage {
+  display: none;
+}
+
+.ToggleFunction {
+  display: none;
+}
+
+/*media queries*/
+@media (max-width: 480px) {
+  .displayFeature {
+    display: block;
+    background-color: white;
+  }
+  #product-info {
+    margin-top: 50px !important;
+    display: inline-block;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .change-color .thumb-box {
+    margin: 10px 0px 10px 0;
+    width: 40%;
+    display: inline-block;
+  }
+  .main-info-mb {
+    margin: 20px;
+    width: 90%;
+    display: block;
+  }
+  .like {
+    font-size: 30px;
+  }
+  .profile {
+    height: 25px;
+    margin-bottom: 5px !important;
+  }
+  .star-rating-mb {
+    display: block;
+  }
+  .star-rating {
+    display: none;
+  }
+  .item-image-parent {
+    width: 100%;
+  }
+  .item-info-parent {
+    margin: 30px 0px 30px 30px;
+    width: 90%;
+  }
+  .add button {
+    width: 90%;
+  }
+  .qty {
+    width: 50%;
+    height: 40%;
+  }
+  .qty button {
+    width: 40%;
+    background: transparent;
+    border: transparent;
+    height: 30%;
+    font-size: 20px;
+  }
+  .price .price2 {
+    display: none;
+  }
+  #formsSection {
+    display: none;
+  }
+  .ToggleFunction {
+    margin-left: 10px;
+    display: inline;
+  }
+  #TradeNow {
+    text-align: center;
+  }
+  #TradeNow h1 {
+    font-size: 20px;
+  }
+  #TradeNow p {
+    margin-left: 0px;
+  }
+  .firstP {
+    display: none;
+  }
+  #easyContact {
+    width: 100%;
+  }
+  #easyContact span {
+    display: none;
+  }
+  .fa-user {
+    float: right;
+  }
+  .favNailPolish {
+    float: right;
+  }
+  .navpage {
+    display: block;
+    background-color: #e4efe7;
+    padding: 9px;
+    border-bottom: 5px solid #125d98;
+  }
+  #NavPage {
+    display: none;
+  }
+  .thisItem, .frequentlyBrought, .priceSummary {
+    width: 20%;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .PriceSummary2 {
+    float: none;
+    width: 100%;
+    padding: 0px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .totalkit {
+    margin-right: 0px;
+  }
+  .search input {
+    padding: 0px;
+  }
+  .search button {
+    padding: 2px;
+  }
+  .writeReview button {
+    margin-left: 36%;
+    padding: 5px 15px;
+  }
+  .row, .row2, .row3 {
+    width: 100%;
+  }
+  .footerdiv {
+    width: 100%;
+    text-align: center;
+  }
+  .footerAdjust {
+    padding: 0px;
+    margin: 7px;
+  }
+  .f1, .f2, .f3, .f4 {
+    padding: 0px;
+    margin: 7px;
+    text-align: center;
+  }
+  #formsSection {
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

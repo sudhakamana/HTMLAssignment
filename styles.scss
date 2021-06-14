@@ -1,0 +1,733 @@
+$color:#ffd8cc;
+$tradePalign: 20%;
+$easyContactAlign: 0px 10px 0px 10px;
+$logoHeight: 60px;
+$logoMargin: 40%;
+$favPolishMargin: 0px 0px 10px 20px;
+$whiteHeartPosition: right;
+$formSectionWidth: 95%;
+$formSectionMargin: 5%;
+$SectionBorder: none;
+$SectionMarginBottom: 10px;
+$SectionDisplay: inline-block;
+$SectionMargin: 0px 10px 0px 10px;
+$NavPageColor: #e4efe7;
+$NavPageBorderColor: #125d98;
+$NavPageTextColor: black;
+$NavpagePadding: 9px;
+$displayArea: grid;
+$columnWidth: 500px;
+$priceFsize: 21px;
+$fontSize: 15px;
+$fontWeight: bold;
+$colors: darkslateblue mediumorchid seagreen steelblue;
+$inlineDisplay: inline;
+$paraGraph: 15px;
+$marginCollapsable: 20px;
+$width: 100%;
+$backgroundColor: transparent;
+$H1TextAlign: center;
+$goesWellitemsWidth: 20%;
+$ReviewImageMargin: 80%;
+$ReviewSecWidth: 87%;
+$ReviewSecLeftMargin:8%;
+$ReviewSecRightMargin: 5%;
+$RatingMarginTop: 20px;
+$RatingMarginBottom: 10px;
+$RatingImgTopMargin:-20px;
+$SearchInput: 5px 100px;
+$SearchButton: 5px 20px;
+$WriteReviewButtonMargin: 78%;
+$WriteReviewFontSize: 30px;
+$ColorReview: blueviolet;
+$GoeswellimgHeight: 150px;
+$AddedbuttonPadding: 10px 50px;
+$Addedbuttonbgcolor:black;
+$Addedbuttoncolor: white;
+$FooterLogosHeight: 20px;
+$FooterPadding: 70px 100px 20px;
+$F1Padding:0px 100px 20px;
+$F2padding: 11%;
+$F3Padding:21%;
+$F4Padding: 17%;
+
+
+
+body{
+  margin:0px;
+}
+#TradeNow h1,p{
+  margin: 0px;
+  display: inline-block;
+}
+#TradeNow{
+  background-color: $color;
+}
+#TradeNow p{
+  margin-left: $tradePalign;
+}
+
+#easyContact{
+  margin-top: 10px;
+  div{
+    float: right;
+  }
+}
+
+#easyContact p{
+  padding: $easyContactAlign;
+}
+#logoDiv img{
+  height: $logoHeight;
+  margin-left: $logoMargin;
+}
+.favNailPolish{
+  float: $whiteHeartPosition;
+  margin: $favPolishMargin
+}
+#formsSection{
+  width: $formSectionWidth;
+  margin-left: $formSectionMargin;
+  margin-bottom: $SectionMarginBottom;
+}
+#borderAdjustment{
+  border: $SectionBorder;
+}
+#ShopByProduct{
+  display: $SectionDisplay;
+}
+.displayFeature select{
+  background-color: white;
+}
+.displayFeature{
+  display: $SectionDisplay;
+  margin: $SectionMargin;
+  
+}
+#NavPage{
+  background-color: $NavPageColor;
+  padding: $NavpagePadding;
+  border-bottom: 5px solid $NavPageBorderColor;
+}
+.NavpageAdjustment{
+  text-decoration: $SectionBorder;
+  color: $NavPageTextColor; 
+  margin: $SectionMargin;
+}
+#product-info {
+  margin-top: 50px !important;
+  display: flex;
+  width: 95%;
+  margin: 0 auto
+}
+
+.profile{
+  height: 30px;
+}
+
+.main-info-mb{
+  display: none;
+}
+
+.item-image-parent {
+  width: 60%; 
+}
+
+.item-info-parent { 
+  width: 40%;
+}
+
+.item-list-vertical { 
+  list-style: none;
+  display: flex;
+  width: 30%;
+  margin-top: 20%;
+  margin-left: 30%;
+
+}
+
+.item-image-main {
+  margin-left: 20%;
+  width: 60%;
+  height: 50%;
+}
+
+/* sectioning completed */
+
+
+.thumb-box {
+  width: 75%;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid gray;
+  padding-top: 20px;
+  
+}
+.thumb-box img {
+  width: $width;
+  height: 100%;
+}
+
+.item-image-main img {
+  width: $width;
+  height: auto;
+}
+
+.thumb-box:hover {
+  cursor: pointer;
+}
+
+/* Item Info */
+.main-info h4{
+  font-size: 21px;
+  margin-bottom: 0;
+  font-weight: 400
+}
+
+.star-rating {
+  width: 80%;
+  color: gray;
+  font-size: 20px;
+  display: block;
+}
+
+.star-rating-mb{
+  display: none;
+ }
+
+.star-rating span {
+  color: #000;
+}
+
+.main-info p {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
+
+#price {
+  color: rgb(168, 14, 14);
+  font-size: $priceFsize;
+  display: block;
+}
+#price2 {
+  color: rgb(77, 238, 71);
+  font-size: $priceFsize;
+  display: block;
+}
+
+.holly {
+  font-size: 10px;
+}
+
+p{
+  font-size: $paraGraph;
+}
+
+.change-color .thumb-box{
+  margin: 10px 0px 10px 0;
+  width: 40px;
+  display: $SectionDisplay;
+}
+
+.add {
+  margin-top: 10px;
+  button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+}
+
+.qty{
+width: 30%;
+height: 30%;
+background-color:rgb(218, 218, 218);
+margin: 20px 20px 20px 0;
+
+button{
+  width: 40%;
+  background: $backgroundColor;
+  border: $backgroundColor;
+  height: 30%;
+  font-size: 20px;
+}
+.num{
+  margin: 3%;
+  font-size: 20px;
+}
+
+}
+
+@each $color in $colors {
+  .#{$color} {
+    background: $color;
+  }
+}
+
+.colors {
+  display: $inlineDisplay;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+ li.circle{
+  display:$inlineDisplay;
+  border-radius: 50% ;
+  border-color: #000;
+  width: 7%;
+}
+
+/* discreption */
+
+.description {
+  margin-top: 30px;
+  button{
+    margin-top: $marginCollapsable;
+  }
+}
+
+.collapsible {
+  background-color: $backgroundColor;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: $width;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: $paraGraph;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.GoesWellWith{
+  background-color: $NavPageColor;
+  text-align: $H1TextAlign;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.suggestionSection{
+  width: $ReviewSecWidth;
+  margin-left: $formSectionMargin;
+}
+.thisItem, .frequentlyBrought, .priceSummary{
+  width: $goesWellitemsWidth;
+  background-color: $Addedbuttoncolor;
+  display: inline-block;
+  padding: 10px 10px 40px 10px;
+}
+.thisItem button{
+  padding: $AddedbuttonPadding;
+  background-color: $Addedbuttonbgcolor;
+  color: $Addedbuttoncolor;
+  margin-top: 15px;
+}
+.priceSummary button{
+  padding: $AddedbuttonPadding;
+  background-color: $Addedbuttonbgcolor;
+  color: $Addedbuttoncolor;
+  margin-top: 15px;
+}
+.frequentlyBrought button{
+  padding: $AddedbuttonPadding;
+  background-color: $Addedbuttonbgcolor;
+  color: $Addedbuttoncolor;
+  margin-top: 15px;
+}
+
+/*.thisItem{
+  margin-left: -20%;
+}*/
+.thisItem img{
+  height: $GoeswellimgHeight;
+}
+.frequentlyBrought img{
+  height: $GoeswellimgHeight;
+}
+.priceSummary img{
+  height: $GoeswellimgHeight;
+}
+
+.thisItem input{
+  float: $whiteHeartPosition;
+}
+.priceSummary input{
+  float: $whiteHeartPosition;
+}
+.frequentlyBrought input{
+  float: $whiteHeartPosition;
+}
+.AwardNailpolish{
+  margin: $NavpagePadding;
+}
+.PriceSummary2{
+  float: $whiteHeartPosition;
+
+}
+.awardbest{
+  display: inline-block;
+  margin:10px;
+ 
+}
+.icondelete{
+  display: inline-block;
+}
+.Section1{
+  padding:13px;
+  background-color: $Addedbuttoncolor;
+  border-bottom: 1px solid $Addedbuttonbgcolor;
+}
+.Section1 img{
+  height: $logoHeight;
+  float: left;
+} 
+.awardbest h6{
+  margin: 2px;
+}
+.Section1 p{
+  display: $whiteHeartPosition;
+}
+.totalkit{
+  margin-right: 80px;
+}
+.discount{
+  background-color: white;
+  padding:10px;
+}
+.red{
+  color: red;
+}
+.green{
+  color:green;
+}
+.discount button{
+  padding: $AddedbuttonPadding;
+  background-color: $Addedbuttonbgcolor;
+  color: $Addedbuttoncolor;
+}
+
+
+.reviewSection{
+  width: $ReviewSecWidth;
+  margin-left: $ReviewSecLeftMargin;
+  margin-right: $ReviewSecRightMargin;
+}
+.rating{
+  margin-top: $RatingMarginTop;
+  margin-bottom: $RatingMarginBottom;
+  border-bottom: 1px solid $NavPageBorderColor;
+}
+.rating p{
+  padding: $NavpagePadding;
+}
+.rating img{
+  height: $logoHeight;
+  float: $whiteHeartPosition;
+  margin-top: $RatingImgTopMargin;
+}
+.search input{
+  padding: $SearchInput;
+} 
+.search button{
+  padding: $SearchButton;
+  margin-bottom: $RatingMarginBottom;
+}
+.ReviewSearchSection{
+  border-bottom: 1px solid $NavPageBorderColor;
+  margin-bottom: $RatingMarginBottom;
+}
+.writeReview{
+  margin-bottom: $RatingMarginBottom;
+}
+.writeReview button{
+  margin-left: $WriteReviewButtonMargin;
+  background-color: $ColorReview;
+  color:$NavPageColor;
+  padding: 10px 15px;
+}
+.writeReview p{
+  font-size: $WriteReviewFontSize;
+}
+.row, .row2, .row3{
+  display: $SectionDisplay;
+}
+.row{
+  width: 20%;
+}
+.row2{
+  width: 50%;
+}
+.row3{
+  width: 25%;
+}
+.row ol{
+  list-style-type: none;
+  line-height: 1.5; 
+}
+.row2 ol{
+  list-style-type: none;
+  line-height: 1.5; 
+}
+.row3 p{
+  font-size: 16px;
+}
+.qualityReview, .qualityReview1, .qualityReview2{
+  background-color: $ColorReview;
+  text-align: $whiteHeartPosition;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.qualityReview1{
+  width: 80%;
+}
+.Helpful{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: $F2padding;
+}
+.Helpful button{
+  border: $SectionBorder;
+  padding: $SearchButton;
+}
+.footerSection{
+  background-color: $NavPageColor;
+}
+.footerdiv{
+  width: $formSectionWidth;
+}
+.Flogo{
+  height: $FooterLogosHeight;
+}
+.footerAdjust{
+  padding: $FooterPadding;
+}
+.footerAdjust2{
+  padding: $FooterPadding;
+}
+.f1{
+  padding: $F1Padding;
+}
+.f2{
+  padding-left: $F2padding;
+}
+.f3{
+  padding-left: $F3Padding;
+}
+.f4{
+  padding-left: $F4Padding;
+}
+.mobileMenu{
+  display: none;
+}
+.navpage{
+  display: none;
+}
+.ToggleFunction{
+  display: none;
+}
+
+/*media queries*/
+@media (max-width: 480px) {
+  .displayFeature{
+    display: block;
+    background-color: white;
+  }
+  #product-info {
+    margin-top: 50px !important;
+    display: inline-block;
+    width: 95%;
+    margin: 0 auto
+  }
+  .change-color .thumb-box{
+    margin: 10px 0px 10px 0;
+    width: 40%;
+    display: inline-block;
+  }
+
+  .main-info-mb{
+    margin: 20px;
+    width: 90%;
+    display: block;
+  }
+
+  .like{
+    font-size: 30px;
+  }
+
+  .profile{
+    height: 25px;
+    margin-bottom: 5px !important;
+  }
+
+ .star-rating-mb{
+   display: block;
+  }
+
+  .star-rating {
+    display: none;
+  }
+
+  
+  .item-image-parent {
+  width: 100%; 
+}
+
+ .item-info-parent { 
+   margin: 30px 0px 30px 30px ;
+  width: 90%;
+ }
+ .add {
+  button{
+    width: 90%;   
+  }
+  
+}
+
+.qty{
+  width: 50%;
+  height: 40%;
+  
+  button{
+    width: 40%;
+    background: $backgroundColor;
+    border: $backgroundColor;
+    height: 30%;
+    font-size: 20px;
+  }
+  
+  }
+
+  .price .price2 {
+    display: none;
+  }
+  
+  #formsSection{
+    display: none;
+  }
+  .ToggleFunction{
+    margin-left: 10px;
+    display: inline;
+  }
+  #TradeNow{
+    text-align: center;
+  }
+  #TradeNow h1{
+    font-size: 20px;
+  }
+  #TradeNow p {
+    margin-left: 0px;
+  }
+  .firstP{
+    display: none;
+  }
+  #easyContact {
+    width: 100%;
+    
+  }
+  #easyContact span{
+    display: none;
+  }
+  .fa-user{
+    float: right;
+  }
+  .favNailPolish{
+    float: right;
+  }
+  .navpage{
+    display: block;
+    background-color: $NavPageColor;
+    padding: $NavpagePadding;
+    border-bottom: 5px solid $NavPageBorderColor;
+  }
+  #NavPage{
+    display: none;
+  }
+  .thisItem, .frequentlyBrought, .priceSummary{
+    width: $goesWellitemsWidth;
+    background-color: $Addedbuttoncolor;
+    display: block;
+    width: 100%;
+    margin:10px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .PriceSummary2{
+    float: none;
+    width: 100%;
+    padding: 0px;
+    margin:10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .totalkit {
+     margin-right:0px;
+  }
+  .search input{
+    padding:0px;
+  }
+  .search button{
+    padding: 2px;
+  }
+  .writeReview button{
+    margin-left: 36%;
+    padding: 5px 15px;
+  }
+  .row, .row2, .row3{
+    width: 100%;
+  }
+  .footerdiv{
+    width: 100%;
+    text-align: center;
+  }
+  .footerAdjust{
+    padding:0px;
+    margin: 7px;
+  }
+  .f1, .f2, .f3, .f4{
+    padding: 0px;
+    margin: 7px;
+    text-align: center;
+  }
+
+  #formsSection{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+}
+
+
